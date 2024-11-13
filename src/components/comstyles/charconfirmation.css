@@ -1,0 +1,26 @@
+
+.char-confirm {
+    max-width: 800px;
+    position: relative;
+    top: 2.5in;
+    margin: auto;
+    padding: 1.5em;
+    background-color: #f3743b;
+    border-radius: .3em;
+}
+
+.char-confirm h2 {
+    margin: 0 0 .5em 0;
+}
+
+.text {
+    display: flex;
+}
+.text > div:last-child {
+    margin-left: .5em;
+}
+
+.text button {
+    font-size: 1.1em;
+    margin-right: .5em;
+}

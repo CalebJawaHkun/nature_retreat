@@ -1,0 +1,71 @@
+
+/*.garden_wrapper, .gardening, .gardening > * {
+    border: 1px solid black;
+} */
+.garden_wrapper {
+    padding: 1em 0;
+    background-color: rgb(255 255 255/.5);
+    position: relative;
+    top: .5in;
+}
+.garden_wrapper > h2 {
+    text-align: center;
+    margin-top: 0;
+}
+.gardening {
+    display: flex;
+    justify-content: center; 
+}
+.seed-selector {
+    display: inline-block;
+    margin-right: 1em;
+}
+.land-plot {
+    border: 1px solid black;
+    width: 800px;
+    height: 800px;
+    background-image: url('assets/uicom/emptyplot.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.table {
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+.cell {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    position: relative;
+}
+
+.cell:hover {
+    background: green;
+}
+
+.seed_ui {
+    width: 100px;
+    cursor: grab;
+}
+.seed_ui.planted {
+    cursor: pointer;
+}
+.seed_ui h4 {
+    margin: 0;
+    text-align: center;
+}
+.planted h4 {
+    
+    color: white;
+    background: black;
+    border-radius: .5em;
+}
+
+.planted {
+    position: absolute;
+    top: -1px;
+}
+

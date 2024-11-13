@@ -1,0 +1,36 @@
+
+.confirmPcon {
+    background-color: rgb(255 255 255/.5);
+    padding: 2em 0;
+    position: fixed;
+    top: 2.5in;
+    z-index: 10;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+}
+.confirmPopup {
+    width: 600px;
+    height: 250px;
+    margin: auto;
+    position: fixed;
+    top: 3in;
+    left: 7.5in;
+    text-align: center;
+    padding: 0 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #f3743b;
+    border-radius: .5em;
+    
+}
+
+.confirmPcon .buttons {
+    font-size: 1.3em;
+    display: flex;
+    justify-content: center;
+}
+
+.buttons button {
+    font-size: inherit;
+    margin: .3em;
+}

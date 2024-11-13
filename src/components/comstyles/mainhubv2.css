@@ -1,0 +1,34 @@
+/*
+
+.displaypos, .displaypos td {
+    border: 1px solid black;
+} */
+
+.mainhub {
+    overflow: hidden;
+    max-height: 1200px;
+}
+
+.displaypos {
+    border-collapse: collapse;
+    width: 100vw;
+    height: 100vh;
+}
+
+td:hover {
+    cursor: pointer;
+}
+
+.red:hover {
+    background-color: red;
+}
+.green:hover {
+    background-color: #6ab187;
+}
+
+.character {
+    transition-property: top, left;
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+    transition-delay: .1s;
+}
