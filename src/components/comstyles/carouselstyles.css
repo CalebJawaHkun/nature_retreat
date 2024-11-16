@@ -1,0 +1,68 @@
+
+
+.wrapper {
+    position: relative;
+    top: 2in;
+    padding: .5in 0;
+    background-color: rgb(255 255 255/.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.wrapper > * + * {
+    margin-top: 1em;
+}
+
+.bg {
+    width: 100%;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.carousel {
+    max-width: 600px;
+    display: flex;
+    overflow: hidden;
+}
+
+.chosen {
+    transform: scale(1.08);
+    transform-origin: 50% 70%;
+}
+
+.move {
+    background-color: transparent;
+    width: 70px;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+}
+
+.move > img {
+    width: 100%;
+}
+
+
+.chosen {
+    transform: scale(1.08);
+}
+
+.select {
+    background-color: initial;
+    font-size: 1.1em;
+    color: white;
+}
+.select span {
+    background: black;
+    padding: .1em;
+    border-radius: .3em;
+}

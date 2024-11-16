@@ -1,0 +1,39 @@
+
+.confirmPcon {
+    padding: 2em 0;
+    position: fixed;
+    top: 30%;
+    z-index: 10;
+    margin: 0 auto;
+    left: 35%;
+    
+}
+.confirmPopup {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, 
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, 
+    rgba(0, 0, 0, 0.12) 0px 4px 6px, 
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, 
+    rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+    width: 600px;
+    height: 250px;
+    text-align: center;
+    padding: 0 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #f3743b;
+    border-radius: .5em;
+    
+}
+
+.confirmPopup #buttons {
+    font-size: 1.3em;
+    display: flex;
+    justify-content: center;
+}
+
+#buttons button {
+    font-size: inherit;
+    margin: .3em;
+}

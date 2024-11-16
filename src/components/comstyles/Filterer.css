@@ -1,0 +1,18 @@
+.filterer, .filterer td {
+    border: 1px solid black;
+}
+
+.filterer {
+    border-collapse: collapse;
+    width: 100vw;
+    height: 100vh;
+}
+
+.filterercon td:hover {
+    background: green;
+    cursor: pointer;
+}
+
+.clicked {
+    background-color: red;
+}

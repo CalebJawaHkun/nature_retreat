@@ -1,0 +1,72 @@
+@font-face {
+  font-family: 'Concert';
+  src: url('assets/font/ConcertOne-Regular.ttf');
+}
+
+:root {
+  font-family: 'Concert';
+  font-size: 1.1rem;
+  line-height: 1.1;
+}
+
+:root * {
+  font-family: inherit;
+  box-sizing: border-box;
+}
+
+.appcontainer {
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0 -1in;
+}
+.charselect {
+  background-image: url('assets/bg/static/bg5.jpg');
+}
+
+.charconfirm {
+  background-image: url('assets/bg/static/bg5.jpg');
+}
+
+.act_garden {
+  background-image: url('assets/bg/static/bg7.png');
+}
+
+
+.main {
+  background-image: url('assets/bg/static/mainhub.gif');
+}
+
+.act_diary {
+  background-image: url('assets/bg/static/bg2.jpg');
+}
+
+.act_breath {
+  background-image: url('assets/bg/static/bg2.jpg');
+}
+
+button {
+  color: white;
+  border-radius: .3em;
+  background-color: black;
+  transition-property: transform;
+  transition-duration: .3s;
+  transition-timing-function: ease-out;
+  cursor: pointer;
+}
+
+button:hover {
+  transform: scale(.9);
+}
+
+button:disabled {
+  opacity: .5;
+}
+
+.cancelButton {
+  position: fixed;
+}
+
+input:focus {
+  outline: none;
+}

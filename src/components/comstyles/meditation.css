@@ -1,0 +1,40 @@
+
+
+.vidwrapper {
+    height: 100vh;
+    position: fixed;
+    width: 100vw;
+    top: 0;
+    z-index: 0;
+}
+
+#meditation_vid {
+    width: 100%;
+}
+
+.typeselector, .medaction {
+    position: fixed;
+    top: 50%;
+    z-index: 1;
+    
+}
+
+.medaction {
+    left: 45%;
+}
+
+.typeselector {
+
+    background-color: white;
+    padding: 1em;
+    border-radius: .5em;
+    left: 43%;
+}
+.typeselector h3 {
+    margin: 0;
+}
+
+.typeselector button, .medaction button {
+    display: block;
+    margin: 1em auto 0;
+}

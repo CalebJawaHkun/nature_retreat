@@ -1,0 +1,102 @@
+.diaryWrapper {
+    position: relative;
+    top: 1in; 
+    padding: 1.5em; 
+}
+
+.diary {
+    position: relative;
+    margin: auto;
+    background-image: url('assets/uicom/Notebook.png');
+    background-repeat: no-repeat;
+    background-origin: border-box;
+    background-position: 55% 70%;
+    background-size: 175%;
+    height: 720px;
+    width: 450px;
+    
+}
+
+
+.buttons, .entry, .head, .pn {
+    position: absolute;
+}
+
+.diary .buttons {
+    height: 1.8em;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    font-size: inherit;
+    background: black;
+    border-radius: .4em;
+    color: white;
+}
+
+.entry {
+    left: 65px;
+    top: .75in;
+    width: 83%;
+    height: 75%;
+}
+
+.head {
+    top: 10px;
+    left: 65px;
+    width: 83%;
+}
+
+.pn {
+    bottom: 40px;
+    right: 20px;
+}
+
+.diary input {
+    background: none;
+    border: none;
+    height: 2.2em;
+    font-size: 1.6em;
+    width: 100%;
+    padding: 0 .4em;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+textarea {
+    border: none;
+}
+
+input:focus, textarea:focus, textarea {
+    outline: none;
+}
+
+.pre:disabled, .sum:disabled {
+    opacity: .5;
+}
+
+.memoryConfirm {
+    position: fixed;
+    padding: 1em;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: 40%;
+    background-color: gold;
+    border-radius: 1em;
+    left: 40%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, 
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, 
+    rgba(0, 0, 0, 0.12) 0px 4px 6px, 
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, 
+    rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.memoryConfirm h2 {
+    margin-top: 0;
+}
